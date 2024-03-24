@@ -49,12 +49,12 @@
                         {{#unless @member}}
                             {{#unless @site.members_invite_only}}
                                 <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
-                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signup" data-portal="signup">{{> "icons/email"}} Subscribe</a>
+                                <a class="gh-head-link" href="#/portal/signup" data-portal="signup">{{> "icons/email"}} Subscribe</a>
                             {{else}}
-                                <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/signin" data-portal="signin">Sign in</a>
+                                <a class="gh-head-link" href="#/portal/signin" data-portal="signin">Sign in</a>
                             {{/unless}}
                         {{else}}
-                            <a class="gh-head-btn gh-btn gh-primary-btn" href="#/portal/account" data-portal="account">Account</a>
+                            <a class="gh-head-link" href="#/portal/account" data-portal="account">Account</a>
                         {{/unless}}
                     </div>
                 {{/unless}}
@@ -97,7 +97,7 @@
                 </nav>
             {{/if}}
             <div class="gh-powered-by">
-                <a href="https://ghost.org/" target="_blank" rel="noopener">Powered by Ghost</a>
+                <span>Site by </span><a href="https://ghost.org/" target="_blank" rel="noopener">Balbis</a>
             </div>
         </div>
     </footer>
