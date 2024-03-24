@@ -10,12 +10,11 @@
                 <time datetime="{{date format="YYYY-MM-DD"}}">{{date}}</time>
                 {{#if reading_time}}
                     <span>
-                        {{reading_time}}
+                        &middot; {{reading_time}}
                     </span>
                 {{/if}}
                 {{#if primary_tag}}
-                    in
-                    <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
+                    &middot; <a class="gh-article-tag" href="{{primary_tag.url}}">{{primary_tag.name}}</a>
                 {{/if}}
             </span>
 
