@@ -659,3 +659,11 @@
         top: 1px;
     }
 }
+
+.gh-head-link svg {
+      vertical-align: bottom;
+  }
+
+.gh-head-link:hover svg {
+  opacity: 0.8;
+}
